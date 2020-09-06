@@ -27,7 +27,7 @@ after_success:
     - docker push pakuthota/factorial-project-worker:latest
     - docker push pakuthota/factorial-project-react-client:latest
 
-# Tell Travis how to deploy code to AWS
+# Tell Travis how to deploy code to AWS.
 deploy:
     provider: elasticbeanstalk # We will deploy code to Elastic Beanstalk
     region: us-west-1 # Specify your region
